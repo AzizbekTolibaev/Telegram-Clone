@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/menu_new_group"
+        android:title="New Group"
+        android:icon="@drawable/ic_new_group"/>
+
+    <item
+        android:id="@+id/menu_contacts"
+        android:title="Contacts"
+        android:icon="@drawable/ic_contact"/>
+
+    <item
+        android:id="@+id/menu_calls"
+        android:title="Calls"
+        android:icon="@drawable/ic_calls"/>
+
+    <item
+        android:id="@+id/menu_people_nearby"
+        android:title="People Nearby"
+        android:icon="@drawable/ic_people_nearby"/>
+
+    <item
+        android:id="@+id/menu_saved_messages"
+        android:title="Saved Messages"
+        android:icon="@drawable/ic_saved_messages"/>
+
+    <item
+        android:id="@+id/menu_setting"
+        android:title="Setting"
+        android:icon="@drawable/ic_setting"/>
+
+    <item android:title="Features">
+        <menu>
+            <item
+                android:id="@+id/menu_invite_friends"
+                android:title="Invite Friends"
+                android:icon="@drawable/ic_invite_friends"/>
+
+            <item
+                android:id="@+id/menu_telegram_features"
+                android:title="Telegram Features"
+                android:icon="@drawable/ic_telegram_features"/>
+
+        </menu>
+    </item>
+</menu>
